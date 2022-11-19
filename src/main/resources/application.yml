@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://www.2ndelement.space:3306/test
+    username: test
+    password: 2781372804
+
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
